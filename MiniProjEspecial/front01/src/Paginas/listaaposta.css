@@ -1,0 +1,183 @@
+/*configuracao da pagina*/
+.corpo{
+    /*background-color: green;*/
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.box{
+    margin-top: 20px;
+    margin-bottom: 20px!important;
+    background: rgb(249, 249, 251);
+
+    /*height: auto;*/
+    width: 80vw;
+    min-height: 80vh;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+}
+.pesquisa_lista{
+
+}
+.pageContainer{
+   /* background: rgb(241, 238, 238);*/
+    background: rgb(213, 71, 71);
+    height: 100vh;
+    display: flex;
+    margin-top: 0px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.panelContent{
+    width: 50vw;
+    background: orange;
+
+}
+
+.codeContainer{
+    display: flex;
+    flex-direction: row;
+}
+.linha{
+    border-bottom: solid  1px rgb(236, 236, 240);
+    padding: 5px;
+}
+.linha>div{
+    display: flex;
+    flex-direction: row;
+}
+
+.linha_id>h5{
+    font-size: 14px;
+}
+.linha_id>h4{
+    font-size: 14px;
+}
+.linha_chave>h5{
+font-size: 3cqmax;
+}
+.code{
+    display: flex;
+    flex-direction: row;
+}
+.code>div{
+    background:black;
+    margin-left: 4px;
+    width: 30px;
+    height: 30px;
+    padding-top: 3px;
+    text-align: center;
+
+    border-radius: 50%;
+    color: white;
+    font-size: 18px;
+}
+.estrelas{
+    display: flex;
+    flex-direction: row;
+    color:red;
+    font-weight: 700;
+}
+.estrelas>div{
+    background:rgb(100, 160, 217);
+    margin-left: 4px;
+    width: 30px;
+    height: 30px;
+    padding-top: 3px;
+    text-align: center;
+
+    border-radius: 50%;
+    color: white;
+    font-size: 18px;
+}
+.data_registo>h5{
+    font-size: 12px;
+    opacity: 0.7;
+}
+.data_registo>h4{
+    font-size: 12px;
+    opacity: 0.7;
+}
+.lista{
+    margin-top: 20px;
+}
+.bglista{
+    background: rgb(106, 103, 103);
+}
+.pesquisa_lista{
+    padding: 15px;
+    background: rgb(228, 224, 224);
+    
+}
+
+.smsSemDados{
+    background:rgb(135, 177, 245);
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+}
+.smsSemDados>div{
+    margin-left: 10px;
+}
+.sombra{
+
+    -webkit-box-shadow: -4px -1px 22px -11px rgba(0,0,0,0.44);
+-moz-box-shadow: -4px -1px 22px -11px rgba(0,0,0,0.44);
+box-shadow: -4px -1px 22px -11px rgba(0,0,0,0.44);
+
+-webkit-box-shadow: -4px -1px 22px -11px rgba(0,0,0,0.3);
+-moz-box-shadow: -4px -1px 22px -11px rgba(0,0,0,0.3);
+box-shadow: -4px -1px 22px -11px rgba(0,0,0,0.3);
+}
+.paginacao{
+    margin-right: 5px;
+    display: flex;
+    flex-direction: row;
+}
+.paginacao>div{
+    margin-left: 5px;
+}
+.paginacao>div>button{
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#divBusca{
+    background-color:#E0EEEE;
+    border:solid 2px #5F9EA0;
+    border-radius:10px;
+    width:300px;
+    height:34px;
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:191px;
+  }
+  
+  #btnBusca{
+    border:none;
+    float:left;
+    height:32px;
+    border-radius:0 7px 7px 0;
+    width:70px;
+    font-weight:bold;
+    background:#5F9EA0;
+
+    margin-right: 0px!important;
+  }
+  
+  #divBusca img{
+    float:left;
+  }
